@@ -13,10 +13,10 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { SectionSalesComponent } from './sections/section-sales/section-sales.component';
 import { SectionOrdersComponent } from './sections/section-orders/section-orders.component';
 import { SectionHealthComponent } from './sections/section-health/section-health.component';
-import { from } from 'rxjs';
 import { BarChartComponent } from './charts/bar-chart/bar-chart.component';
 import { LineChartComponent } from './charts/line-chart/line-chart.component';
 import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
+import { ServerComponent } from './server/server.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +28,8 @@ import { PieChartComponent } from './charts/pie-chart/pie-chart.component';
     SectionHealthComponent,
     BarChartComponent,
     LineChartComponent,
-    PieChartComponent
+    PieChartComponent,
+    ServerComponent
   ],
   imports: [
     BrowserModule,
